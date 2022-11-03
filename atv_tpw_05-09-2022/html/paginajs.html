@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script type="text/javascript" src="../js/codigos.js"></script>
+    <title>Atividade de TPW</title>
+</head>
+<body>
+    <h1>Calculadora de Alimentos</h1>
+
+    <div id="conteudo" class="borda">
+        <form>
+            <p>
+                <label for="l_produto">Digite o nome do produto</label><br>
+                <input type="text" name="l_produto" id="produto" required>
+            </p>
+            <p>
+                <label for="l_quantidade">Digite a quantidade consumida</label><br>
+                <input type="number" name="l_quantidade" id="quantidade" required>
+            </p>
+            <p>
+                <label for="l_dias">Digite a quantidade de dias em que o alimento é consumido</label><br>
+                <input type="number" name="l_dias" id="dias" min="1" max="7" required>
+            </p>
+            <p>
+                <label for="l_familia">Digite quantos membros á em sua familia</label><br>
+                <input type="number" name="l_familia" id="familia" min="2" max="20" required>
+            </p>
+            <p>
+                <input type="button" value="Calcular" onclick="calcular()">
+            </p>
+        </form>
+    </div>
+
+    <div id="resp">
+        
+    </div>
+
+    <footer>
+        &copy;Todos os direitos reservados.
+        
+        <p>
+            Alunos:<br> 
+            Emerson Alves Pereira<br>
+            John Santos Felix de Santana<br>
+            Igor Tauhan Dourado de Souza
+        </p>
+    </footer>
+</body>
+</html>

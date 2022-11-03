@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/estilo_form.css">
+    <title>Envio de formularios</title>
+</head>
+<body>
+    <h1>Cadastro de Usuario</h1>
+    <div class="container">
+        <form action="../Html/respostas.html">
+            <p>
+                <label for="nome">Nome</label><br>
+                <input type="text" class="txt" id="name" name="nome" required>
+            </p>
+            <p>
+                <label for="rua">Rua</label><br>
+                <input type="text" class="txt" name="rua">
+            </p>
+            <p>
+                <label for="numero">Numero</label><br>
+                <input type="number" class="txt" name="numero">
+            </p>
+                <label for="bairro">Bairro</label><br>
+                <input type="text" class="txt" name="bairro">
+            <p>
+                <label for="complet">Complemento</label><br>
+                <input type="text" class="txt" name="complet">
+            </p>
+            <h3>Unidade de estudo</h3>
+            <p>
+                <input type="radio" name="cidade" value="Feira de Santana"> Feira de Santana<br>
+                <input type="radio" name="cidade" value="Itabuna"> Itabuna<br>
+                <input type="radio" name="cidade" value="Salvador"> Salvador<br>
+                <input type="radio" name="cidade" value="Vitoria da conquista" checked> Vitoria da conquista<br>
+            </p>
+            <p>
+                <label for="data">Data de Nascimento</label><br>
+                <input type="date" class="txt" name="data">
+            </p>
+            <p>
+                <label for="hora">Horario de Nascimento</label><br>
+                <input type="time" class="txt" name="hora">
+            </p>
+            <p>
+                <label for="e-mail">E-mail</label><br>
+                <input type="email" class="txt" name="e-mail" required>
+            </p>
+            <p>
+                <label for="sat">Nos diga o seu nivel de satisfação<br>min: 0 | max: 5</label><br>
+                <input type="range" min="0" max="5" name="sat">
+            </p>
+            <p>
+                <label for="cor">Qual sua cor favorita?</label><br>
+                <input type="color">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </div>
+    
+</body>
+</html>

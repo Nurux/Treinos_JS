@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    background-color: #030303;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 75vh;
+    height: 2em;
+    margin-top: 1vh;
+    color: darkorange;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: darkorange;
+    width: 20em;
+    height: 3em;
+    border-radius: 20em;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkorchid;
+}
+
+.cont {
+    width: 600px;
+    margin-left: 2em;
+}
+
+
+
+#vetor {
+    margin-top: 2em;
+    border: 1px solid white;
+}
+
+.alter {
+    position: fixed;
+    top: 10em;
+    left: 35em;
+    width: 300px;
+    height: 300px;
+    background-color: darkorchid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alter button {
+    margin: 1em;
+}
+
+.alter button:hover{
+    background-color: darkred;
+}
+
+h3 {
+    padding: 1em;
+}
+
+footer {
+    margin-top: 10em;
+    text-align: center
+}
